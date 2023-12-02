@@ -30,13 +30,13 @@ Only related properties were added, more functionalities are waiting to be devel
 ## Bugs and Future Development
 BUGS:
 
-When using `>>` or `<<` to connect attributes, some unexpected connection error may occur when the destination attribute has multi-indices.
+When using `>>` or `<<` to connect attributes, some unexpected errors in connection orders may occur when the destination attribute has multi-indices.
 
 When using load weights method, if the proxy model has excessive subdivisions, it may result in inaccurate weight distribution, leading to subtle distortions in the topology of the model.
 
 Future Development：
 
-The controller library will be rewritten into the Curve class, creating controllers by calling external CV point coordinates.
+The controller library will be rewritten into the Curve class, creating controllers by calling external CV point coordinates in an exclusive module.
 
 The weight handling toolbox will be enhanced to achieve precise weight copying and weight transferring functionalities.
 
@@ -51,7 +51,7 @@ A pre-written rigging script and related project files have been placed in `proj
 
 If you place the files in new directory, please make sure the projectPath in `build.py` has been modified.
 ## Tests
-The functionalities of the main modules are tested using the TestCase class in unittest. After configuration, you can run the tests in the Maya Script Editor by entering 
+The functionalities of the main modules are tested based on the TestCase class in unittest. After configuration, you can run all the tests in the Maya Script Editor by entering 
 
 `from modules.utils import testing` 
 
