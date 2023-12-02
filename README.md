@@ -3,7 +3,7 @@ A custom Maya toolkit for evaluating applicant's proficiency in computer technol
 ## Description
 This is a toolkit specifically for Maya rigging, but also suited for other modules in maya, written in object-oriented programming.  It leverages the Maya API and cmds library, restructuring functionalities into new classes to reduce code duplication and to make coding look neat and clean.
 
-An example of a pre-programmed character case is also provided to illustrate the usage of this library.
+An example of a procedural character rigging case is also provided to illustrate the usage of this library.
 ## The problem
 Many users, while programming in Python within Maya, often create multiple modules by invoking the CMDS module and subsequently call these distinct modules separately. This approach frequently results in code that is not concise and lacks proper organization, leading to disorder and making code navigation and reference extremely inconvenient. Furthermore, this programming method not only overlooks the advantages of object-oriented programming but also fails to delve into the deep usage of the Maya API. This series of potential issues has led to redundant code, with much meaningless labor being repeated, significantly reducing overall efficiency.
 
