@@ -47,7 +47,7 @@ After creating the directory, please place the userSetup.py file into `C:\Users\
 
 You can also choose to place the extracted files into a new root directory based on your preferences, please replace old path with the new path in userSetup.py.
 ## Example
-A pre-written rigging script and related project files have been placed in `projects\biped\troll`. After configuring the toolkit, you can directly drag the `main.py` from `projects\biped\troll\scripts` into the Maya Script Editor and run it to generate a complete rigging setup.
+A charater rigging setup with pre-written scripts and related project files have been placed in `projects\biped\troll`. After configuring the toolkit, you can directly drag the `main.py` from `projects\biped\troll\scripts` into the Maya Script Editor and run it to generate a complete rigging setup.
 
 If you place the files in new directory, please make sure the projectPath in `build.py` has been modified.
 ## Tests
