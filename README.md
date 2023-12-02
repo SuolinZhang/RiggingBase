@@ -45,9 +45,14 @@ To minimize unnecessary trouble, please create a directory on the C drive named 
 
 After creating the directory, please place the userSetup.py file into `C:\Users\User\Documents\maya\2023\prefs\scripts`.
 
-You can also choose to place the extracted files into a new root directory based on your preferences, please replace the new path in userSetup.py.
+You can also choose to place the extracted files into a new root directory based on your preferences, please replace old path with the new path in userSetup.py.
 ## Example
 A pre-written rigging script and related project files have been placed in `projects\biped\troll`. After configuring the toolkit, you can directly drag the `main.py` from `projects\biped\troll\scripts` into the Maya Script Editor and run it to generate a complete rigging setup.
 
 If you place the files in new directory, please make sure the projectPath in `build.py` has been modified.
 ## Tests
+The functionalities of the main modules are tested using the TestCase class in unittest. After configuration, you can run the tests in the Maya Script Editor by entering 
+
+`from modules.utils import testing` 
+
+`testing.testAllModules()`
