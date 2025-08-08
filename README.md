@@ -29,4 +29,4 @@ Controller lib is banned for now as it causes a short lag when loading pymel.
 `testing.testAllModules()`
 
 ## Example
-A body rigging example was in `projects\biped\troll`. After configuring the toolkit.
+A body rigging example was in `projects\biped\troll`.
